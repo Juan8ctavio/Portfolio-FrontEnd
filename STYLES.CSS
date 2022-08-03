@@ -1,4 +1,5 @@
-summary{color: darkmagenta;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+summary{color: darkmagenta;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 summary{justify-content: space-between;}
 
@@ -12,22 +13,27 @@ nav ul li{
     clear: both;
 }
 
-li{font-weight: bold; justify-content:space-between}
+li{font-weight: bold; 
+    justify-content:space-between}
 
 section img{width: 120px;}
 
 section div{flex-direction: row;}
 
-.nombre{color: darkorange; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-style: oblique;}
+.nombre{color: rgb(255, 255, 255); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 64pt;
+}
 
-.ciudad{color: deeppink; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: italic;}
+.ciudad{color: rgb(235, 255, 88); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-style: italic;
+    font-size: 32pt;
+}
 
 .titulo{color: plum;}
 
-.portada{
-    width: 1500px;
-    height: 150px;
-}
 .trabajos{
     float: left;
     list-style: none;
@@ -39,3 +45,20 @@ section div{flex-direction: row;}
 
 .link { color: black; 
 text-decoration: none;}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.nombre{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.ciudad{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
